@@ -2062,8 +2062,8 @@ section,
 }
 
 .about .about-img {
-  min-height: 600px;
-  max-width: 400px;
+  min-height: 500px;
+  max-width: 300px;
   position: relative;
   margin: auto;
 }
@@ -2073,17 +2073,7 @@ section,
   .about .about-img {
     position: absolute;
     top: 10%;
-    right: 5%;
-    max-height: 400px;
-    max-width: 400px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .about .about-img {
-    position: absolute;
-    top: 10%;
-    right: 15%;
+    right: 0%;
     max-height: 400px;
     max-width: 400px;
   }
